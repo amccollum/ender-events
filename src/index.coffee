@@ -1,5 +1,4 @@
-# A basic implementation of the node.js EventEmitter class
-events = exports ? (@['events'] = {})
+events = exports ? if provide then provide('events') else (@['events'] = {})
 
 class events.EventEmitter
     emit: (type) ->
