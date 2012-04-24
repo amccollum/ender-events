@@ -1,0 +1,16 @@
+{
+    "name": "ender-events",
+    "version": "0.0.1",
+    "description": "An implementation of the EventEmitter class for client-side use",
+    "keywords": ["ender", "events", "node-compat"],
+    "author": "Andrew McCollum <amccollum@gmail.com>",
+    "url": "http://github.com/amccollum/ender-events",
+    "repositories": [{ "type": "git", "url": "https://github.com/amccollum/ender-events.git" }],
+    "licenses": [{ "type": "MIT", "url": "http://opensource.org/licenses/mit-license.php" }],
+    
+    "main": "lib/index.js",
+    "directories": { "lib": "lib" },
+    
+    "dependencies": {},
+    "devDependencies": { "coffee-script": "*" }
+}
